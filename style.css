@@ -9,9 +9,6 @@
     --max: 1180px;
 }
 
-
-/* RESET */
-
 * {
     margin: 0;
     padding: 0;
@@ -46,9 +43,6 @@ a {
 
     margin: auto;
 }
-
-
-/* HEADER */
 
 .header {
     position: sticky;
@@ -125,9 +119,6 @@ em {
     border-color: var(--accent);
     color: var(--accent);
 }
-
-
-/* HERO */
 
 .hero {
     min-height: 760px;
@@ -268,9 +259,6 @@ em {
     color: var(--text);
 }
 
-
-/* HERO VISUAL */
-
 .hero-visual {
     height: 520px;
 
@@ -378,10 +366,6 @@ em {
 
     letter-spacing: 0.18em;
 }
-
-
-/* SECTIONS */
-
 .section {
     padding: 120px 0;
 }
@@ -403,10 +387,6 @@ em {
 
     flex: 1;
 }
-
-
-/* ABOUT */
-
 .about-grid {
     display: grid;
 
@@ -470,10 +450,6 @@ em {
 
     font-weight: 700;
 }
-
-
-/* SKILLS */
-
 .dark-section {
     background: var(--surface);
 
@@ -604,9 +580,6 @@ em {
 
     font-size: 10px;
 }
-
-
-/* PROJECTS */
 
 .projects-heading {
     margin-top: 22px;
@@ -790,9 +763,6 @@ em {
     max-width: 470px;
 }
 
-
-/* STATS */
-
 .stats-section {
     border-block: 1px solid var(--line);
 
@@ -837,9 +807,6 @@ em {
 
     line-height: 1.35;
 }
-
-
-/* CONTACT */
 
 .contact {
     background: var(--accent);
@@ -903,10 +870,6 @@ em {
 
     font-weight: 600;
 }
-
-
-/* FOOTER */
-
 .footer {
     min-height: 90px;
 
@@ -920,9 +883,6 @@ em {
 
     font-size: 10px;
 }
-
-
-/* TABLET */
 
 @media (max-width: 850px) {
 
@@ -981,10 +941,6 @@ em {
         padding: 45px 0;
     }
 }
-
-
-/* MOBILE */
-
 @media (max-width: 520px) {
 
     .container {
